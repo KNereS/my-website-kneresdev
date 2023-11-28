@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    padding: 2rem 3rem;
+}
+
+.header__logo {
+    transition: 0.25s ease-in-out;
+}
+
+.header__logo:hover {
+    transform: scale(.9);
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__navigation__list {
+    display: flex;
+    gap: 2rem;
+    height: 1.25rem;
+}
+
+.header__navigation__list li {
+    font-family: var(--font-mono);
+}
+
+
+.header__navigation__list li a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.header__navigation__list li a span {
+    color: var(--secondary);
+    transition: 0.25s ease-in-out;
+}
+
+.header__navigation__list li a span:hover {
+    color: var(--primary);
+}
+
+.header__navigation__list__button {
+    width: 120px;
+    height: 36px;
+    position: relative;
+}
+
+.header__navigation__list__button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 0.85rem;
+    border: solid 1px var(--primary);
+    background-color: var(--background-navy);
+    color: var(--primary);
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    cursor: pointer;
+    position: absolute;
+    transition: 0.25s ease-in-out;
+    text-decoration: none;
+}
+
+.header__navigation__list__button a {
+    color: var(--secondary);
+}
+
+.header__navigation__list__button a span {
+    color: var(--primary);
+}
+
+.header__navigation__list__button a:hover {
+    transform: translate(-3px, -3px);
+    color: var(--primary);
+}
+
+.header__navigation__list__button__box {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: var(--primary);
+}
