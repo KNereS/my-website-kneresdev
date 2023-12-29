@@ -1,8 +1,11 @@
 /* Fontes */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 /* Header */
 @import url(header.css);
+
+/* Main */
+@import url(main/presentation.css);
 
 :root {
     --background-navy: #0a182e;
@@ -10,7 +13,7 @@
     --primary: #64ffda;
     --secondary: #f1ffff;
     --font-mono: "IBM Plex Mono", serif;
-    --font-sans-serif: "Poppins", sans-serif;
+    --font-sans-serif: "Montserrat", sans-serif;
 }
 
 * {
