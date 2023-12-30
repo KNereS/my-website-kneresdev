@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 5%), rgba(0, 0, 0, 35%));
+    background: linear-gradient(45deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(/assets/img/main/background.png);
+    background-size: cover;
 }
 
 .main__about-me__text {
@@ -15,9 +16,8 @@
 }
 
 .main__about-me__text h2 {
-    font-family: var(--font-mono);
+    font-family: var(--font-sans-serif);
     color: var(--primary);
-    font-weight: 500;
     font-size: 2rem;
 }
 
@@ -27,7 +27,7 @@
 
 .main__about-me__text p {
     color: var(--secondary);
-    font-family: var(--font-sans-serif);
+    font-family: var(--font-mono);
     line-height: 150%;
     font-size: 1.25rem;
     font-weight: 400;
