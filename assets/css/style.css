@@ -6,6 +6,7 @@
 
 /* Main */
 @import url(main/presentation.css);
+@import url(main/about-me.css);
 
 :root {
     --background-navy: #0a182e;
@@ -14,6 +15,10 @@
     --secondary: #f1ffff;
     --font-mono: "IBM Plex Mono", serif;
     --font-sans-serif: "Montserrat", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 * {
