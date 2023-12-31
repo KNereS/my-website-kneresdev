@@ -8,6 +8,7 @@
 @import url(main/presentation.css);
 @import url(main/about-me.css);
 @import url(main/skills.css);
+@import url(main/projects.css);
 
 :root {
     --background-navy: #0a182e;

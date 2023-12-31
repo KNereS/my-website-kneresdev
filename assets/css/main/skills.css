@@ -42,7 +42,7 @@
 .main__skills__boxes__item:hover {
     background-color: var(--primary);
     color: black;
-    box-shadow: 0 0 20px #64ffdb44 ;
+    box-shadow: 0 0 20px #64ffdb44;
 }
 
 .main__skills__boxes__item h3 {
