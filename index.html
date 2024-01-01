@@ -20,7 +20,7 @@
                 <li><a href="#projects">#<span>projetos</span></a></li>
             </ul>
             <div class="header__navigation__list__button">
-                <a href="#">
+                <a href="#contact">
                     <span>#</span>contato
                 </a>
                 <div class="header__navigation__list__button__box"/>
@@ -38,8 +38,8 @@
                     <span>desenvolvedor</span> <span>Web.</span>
                 </h1>
                 <div class="main__presentation__button">
-                    <a href="#">
-                        <span>#</span>contato
+                    <a href="#contact">
+                        <span>#</span>faleComigo
                     </a>
                     <div class="main__presentation__button__box"/>
                 </div>
@@ -178,5 +178,56 @@
             </div>
         </section>
     </main>
+    <footer id="contact">
+        <div class="footer__text">
+            <h2><span>#</span>contato</h2>
+            <p>
+                Entre em contato comigo através <br>
+                das <span>redes sociais</span> ou <span>e-mail</span>.
+            </p>
+            <div class="footer__links">
+                <div class="footer__links__item">
+                    <a href="https://www.linkedin.com/in/kneresouza-webdev/" target="_blank">
+                        <div>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+                <div class="footer__links__item">
+                    <a href="https://instagram.com/neres.mp3/" target="_blank">
+                        <div>
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </div>
+                        <p>Instagram Messenger</p>
+                    </a>
+                </div>
+                <div class="footer__links__item">
+                    <a href="https://t.me/neresdotmp3" target="_blank">
+                        <div>
+                            <i class="fa-brands fa-telegram"></i>
+                        </div>
+                        <p>Telegram</p>
+                    </a>
+                </div>
+                <div class="footer__links__item">
+                    <a href="https://wa.me/qr/XKEHZNS6IIEDC1" target="_blank">
+                        <div>
+                            <i class="fa-solid fa-square-phone"></i>
+                        </div>
+                        <p>WhatsApp</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <form method="POST" action="https://formsubmit.co/professional.neresk@gmail.com" enctype="multipart/form-data">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="username" placeholder="Nome Completo">
+            <input type="email" name="email" placeholder="Seu Endereço de E-Mail">
+            <textarea name="message" placeholder="Mensagem"></textarea>
+            <button type="submit">Enviar!</button>
+        </form>
+    </footer>
 </body>
 </html>
