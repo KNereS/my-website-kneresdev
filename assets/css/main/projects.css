@@ -217,6 +217,7 @@
 
     .main__projects__mobile__item p {
         font-size: 0.65rem;
+        line-height: normal;
     }
 
     .main__projects__mobile__item div a {
