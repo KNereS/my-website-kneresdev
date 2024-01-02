@@ -224,3 +224,24 @@
     }
 
 }
+
+@media (max-width: 350px) {
+
+    .main__projects__mobile__item {
+        width: 250px;
+        height: 200px;
+    }
+
+    .main__projects__mobile__item h3 {
+        font-size: 0.75rem;
+    }
+
+    .main__projects__mobile__item p {
+        font-size: 0.5rem;
+    }
+
+    .main__projects__mobile__item div a {
+        font-size: 0.5rem;
+    }
+
+}
