@@ -104,3 +104,123 @@
 .main__projects__boxes__item__text div a {
     color: var(--primary);
 }
+
+.main__projects__mobile {
+    display: none;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main__projects__mobile__item {
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects0.png);
+    background-size: cover;
+    padding: 2rem;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.25s ease-in-out;
+    gap: 2rem;
+    margin: 12.5px;
+    box-shadow: 0 0 20px #000000AA;
+}
+
+.main__projects__mobile__item h3 {
+    font-family: var(--font-mono);
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.main__projects__mobile__item p {
+    font-family: var(--font-sans-serif);
+    color: var(--secondary);
+    font-size: 0.85rem;
+    line-height: 150%;
+}
+
+.main__projects__mobile__item div {
+    display: flex;
+    gap: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.main__projects__mobile__item div a {
+    color: var(--primary);
+}
+
+.main__projects__mobile__item:hover {
+    transform: scale(1.015);
+}
+
+.main__projects__mobile__item + .main__projects__mobile__item {
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects1.png);
+    background-size: cover;
+}
+
+.main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item {
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects2.png);
+    background-size: cover;
+}
+
+.main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item{
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects3.png);
+    background-size: cover;
+}
+
+/* Media Query */
+
+@media (max-width:1100px) {
+
+    .main__projects__boxes {
+        display: none;
+    }
+
+    .main__projects__mobile {
+        display: grid;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .main__projects__mobile {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 470px) {
+
+    .main__projects__mobile__item {
+        width: 350px;
+    }
+
+    .main__projects__mobile__item p {
+        font-size: 0.75rem;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .main__projects__mobile__item {
+        width: 300px;
+        height: 250px;
+    }
+
+    .main__projects__mobile__item h3 {
+        font-size: 1rem;
+    }
+
+    .main__projects__mobile__item p {
+        font-size: 0.65rem;
+    }
+
+    .main__projects__mobile__item div a {
+        font-size: 0.75rem;
+    }
+
+}
