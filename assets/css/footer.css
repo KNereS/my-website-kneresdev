@@ -9,8 +9,8 @@ footer {
 .footer__text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 2.5rem;
+    justify-content: space-around;
+    padding: 0 2.5rem 2.5rem 2.5rem;
     border-right: solid var(--primary) 1px;
     height: 550px;
 }
