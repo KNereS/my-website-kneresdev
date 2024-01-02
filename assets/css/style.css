@@ -35,4 +35,5 @@ html {
 
 body {
     background-color: var(--background-navy);
+    max-width: 100vw;
 }
