@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
+    align-items: center;
 }
 
 .main__skills h2 {
@@ -21,6 +22,7 @@
 .main__skills__boxes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
 }
 
 .main__skills__boxes__item {
@@ -58,4 +60,28 @@
     font-size: 0.85rem;
     font-weight: 600;
     line-height: 150%
+}
+
+/* Media Query */
+
+@media (max-width: 1200px) {
+
+    .main__skills__boxes {
+        width: 525px;
+        gap: 25px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .main__skills__boxes {
+        width: 250px;
+        gap: 25px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
 }
