@@ -9,10 +9,48 @@
     <link rel="shortcut icon" href="assets/img/header/Logo.svg" type="svg">
 </head>
 <body>
+
+    <div class="menu" id="mobile">
+
+        <nav class="menu__navigation">
+
+            <ul class="header__navigation__list">
+                <li>
+                    <button id="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    <a href="#about-me" name="mobileLinks">
+                        #<span>sobreMim</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skills" name="mobileLinks">
+                        #<span>competências</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" name="mobileLinks">
+                        #<span>projetos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" name="mobileLinks">
+                        #<span>contato</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </div>
+
     <header>
         <a href="index.html">
             <img class="header__logo" src="assets/img/header/Logo.png" alt="Logo Kauã Neres | Desenvolvedor Web">
         </a>
+
         <nav class="header__navigation">
             <ul class="header__navigation__list">
                 <li><a href="#about-me">#<span>sobreMim</span></a></li>
@@ -23,9 +61,12 @@
                 <a href="#contact">
                     <span>#</span>contato
                 </a>
-                <div class="header__navigation__list__button__box"/>
+                <div class="header__navigation__list__button__box">
             </div>
         </nav>
+
+        <button class="openMenu" id="open"><i class="fa-solid fa-bars"></i></button>
+
     </header>
     <main>
         <section class="main__presentation">
@@ -35,13 +76,13 @@
                 </h2>
                 <h1>
                     Kauã Neres, <br>
-                    <span>desenvolvedor</span> <span>Web.</span>
+                    <span>desenvolvedor Web.</span>
                 </h1>
                 <div class="main__presentation__button">
                     <a href="#contact">
                         <span>#</span>faleComigo
                     </a>
-                    <div class="main__presentation__button__box"/>
+                    <div class="main__presentation__button__box">
                 </div>
             </div>
         </section>
@@ -53,7 +94,7 @@
                 <p>
                     Meu nome é <span>Kauã Neres de Souza</span> e sou <span>Desenvolvedor Web</span>. Nos últimos meses, através da Escola de Tecnologia Alura, tenho concluído cursos na área de Tecnologia. <br> 
                     <br>
-                    Tenho conhecimentos em <span>Web Design</span>, <span>desenvolvimento Web</span>, <span>design responsivo</span>, desenvolvimento de <span>aplicações Web</span> e programação em <span>JavaScript</span> e <span>Python</span>, além de ter básica compreensão em informática, hardware e edição de vídeo.
+                    Tenho conhecimentos em <span>React</span>, <span>Node.js</span>, <span>Banco de Dados</span>, <span>Back-End básico</span>, <span>Web Design</span>, <span>desenvolvimento Web</span>, <span>design responsivo</span>, desenvolvimento de <span>aplicações Web</span> e programação em <span>JavaScript</span> e <span>Python</span>, além de ter básica compreensão em informática, hardware e edição de vídeo.
                 </p>
                 <div class="main__about-me__text__buttons">
                     <a href="https://www.linkedin.com/in/kneresouza-webdev/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -108,6 +149,27 @@
                         Linguagem de propósito geral de alto nível e multiparadigma. Possui tipagem dinâmica e uma de suas principais características é permitir a fácil leitura do código e exigir poucas linhas de código.
                     </p>
                 </div>
+
+                <div class="main__skills__boxes__item">
+                    <h3>
+                        <span><i class="fa-brands fa-react"></i></span> <br>
+                        React
+                    </h3>
+                    <p>
+                        Biblioteca JavaScript utilizada para construir interfaces de usuário em aplicativos web. o React é popular por sua facilidade de uso, flexibilidade e escalabilidade.
+                    </p>
+                </div>
+
+                <div class="main__skills__boxes__item">
+                    <h3>
+                        <span><i class="fa-brands fa-node-js"></i></span> <br>
+                        Node.js
+                    </h3>
+                    <p>
+                        Node.js é um ambiente de execução JavaScript que permite criar diversos tipos de aplicações web, desde servidores para sites estáticos e dinâmicos até APIs.
+                    </p>
+                </div>
+
             </div>
         </section>
         <section class="main__projects" id="projects">
@@ -115,6 +177,39 @@
                 <span>#</span>projetos
             </h2>
             <div class="main__projects__boxes">
+
+                <div class="main__projects__boxes__item">
+                    <div class="main__projects__boxes__item__image"></div>
+                    <div class="main__projects__boxes__item__text">
+                        <h3>
+                            iManagy - React App
+                        </h3>
+                        <p>
+                            O projeto consiste em criar uma aplicação web com funcionalidades de login e registro. A plataforma iManagy permitirá que os usuários se autentiquem, acessem recursos restritos e mantenham seus dados de perfil.
+                        </p>
+                        <div>
+                            <a href="https://imanagy-reactapp.vercel.app/" target="_blank">Testar</a>
+                            <a href="https://github.com/KNereS/imanagy-reactapp" target="_blanks">Código fonte no GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__projects__boxes__item">
+                    <div class="main__projects__boxes__item__image"></div>
+                    <div class="main__projects__boxes__item__text">
+                        <h3>
+                            Nail Designer Website
+                        </h3>
+                        <p>
+                            O projeto de uma landing page visa apresentar um produto, serviço ou oferta de maneira convincente e direta, com o objetivo de persuadir os visitantes a realizar uma ação específica, como preencher um formulário, fazer uma compra ou se inscrever em uma lista de e-mails.
+                        </p>
+                        <div>
+                            <a href="https://mikaellaneresnaildesigner.vercel.app/" target="_blank">Testar</a>
+                            <a href="https://github.com/KNereS/mikaellaneresnaildesigner" target="_blanks">Código fonte no GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="main__projects__boxes__item">
                     <div class="main__projects__boxes__item__image"></div>
                     <div class="main__projects__boxes__item__text">
@@ -177,6 +272,33 @@
                 </div>
             </div>
             <div class="main__projects__mobile">
+
+                <div class="main__projects__mobile__item">
+                    <h3>
+                        iManagy - React App
+                    </h3>
+                    <p>
+                        O projeto consiste em criar uma aplicação web com funcionalidades de login e registro. A plataforma iManagy permitirá que os usuários se autentiquem, acessem recursos restritos e mantenham seus dados de perfil.
+                    </p>
+                    <div>
+                        <a href="https://imanagy-reactapp.vercel.app/" target="_blank">Testar</a>
+                        <a href="https://github.com/KNereS/imanagy-reactapp" target="_blanks">Código fonte no GitHub</a>
+                    </div>
+                </div>
+
+                <div class="main__projects__mobile__item">
+                    <h3>
+                        Nail Designer Website
+                    </h3>
+                    <p>
+                        O projeto de uma landing page visa apresentar um produto, serviço ou oferta de maneira convincente e direta, com o objetivo de persuadir os visitantes a realizar uma ação específica, como preencher um formulário, fazer uma compra ou se inscrever em uma lista de e-mails.
+                    </p>
+                    <div>
+                        <a href="https://mikaellaneresnaildesigner.vercel.app/" target="_blank">Testar</a>
+                        <a href="https://github.com/KNereS/mikaellaneresnaildesigner" target="_blanks">Código fonte no GitHub</a>
+                    </div>
+                </div>
+
                 <div class="main__projects__mobile__item">
                     <h3>
                         Weather App
@@ -185,8 +307,8 @@
                         Aplicação Web capaz de receber uma entrada do usuário com o nome de um local e através da API (Interface de Programação de Aplicações, do inglês "Application Programming Interface") OpenWeather API, exibir na tela as informações climatológicas da localidade em questão.
                     </p>
                     <div>
-                        <a href="#" target="_blank">Testar</a>
-                        <a href="#" target="_blanks">Código fonte no GitHub</a>
+                        <a href="https://kneres.github.io/weather-app/" target="_blank">Testar</a>
+                        <a href="https://github.com/KNereS/weather-app/" target="_blanks">Código fonte no GitHub</a>
                     </div>
                 </div>
                 <div class="main__projects__mobile__item">
@@ -197,8 +319,8 @@
                         Um projeto de "To Do List" é uma aplicação ou sistema de organização que permite aos usuários criar listas de tarefas e atividades a serem realizadas. Essas listas são projetadas para ajudar as pessoas a priorizar suas responsabilidades e manter o controle de suas obrigações diárias, semanais ou mensais.
                     </p>
                     <div>
-                        <a href="#" target="_blank">Testar</a>
-                        <a href="#" target="_blanks">Código fonte no GitHub</a>
+                        <a href="https://kneres.github.io/toDo-list/" target="_blank">Testar</a>
+                        <a href="https://github.com/KNereS/toDo-list/" target="_blanks">Código fonte no GitHub</a>
                     </div>
                 </div>
                 <div class="main__projects__mobile__item">
@@ -209,20 +331,20 @@
                         O projeto de uma landing page visa apresentar um produto, serviço ou oferta de maneira convincente e direta, com o objetivo de persuadir os visitantes a realizar uma ação específica, como preencher um formulário, fazer uma compra ou se inscrever em uma lista de e-mails.
                     </p>
                     <div>
-                        <a href="#" target="_blank">Testar</a>
-                        <a href="#" target="_blanks">Código fonte no GitHub</a>
+                        <a href="https://kneres.github.io/nexcent-landing-page/" target="_blank">Testar</a>
+                        <a href="https://github.com/KNereS/nexcent-landing-page/" target="_blanks">Código fonte no GitHub</a>
                     </div>
                 </div>
                 <div class="main__projects__mobile__item">
                     <h3>
-                        Landing Page - Company Digital Marketing
+                        Landing Page - Company
                     </h3>
                     <p>
                         O projeto de uma landing page visa apresentar um produto, serviço ou oferta de maneira convincente e direta, com o objetivo de persuadir os visitantes a realizar uma ação específica, como preencher um formulário, fazer uma compra ou se inscrever em uma lista de e-mails.
                     </p>
                     <div>
-                        <a href="#" target="_blank">Testar</a>
-                        <a href="#" target="_blanks">Código fonte no GitHub</a>
+                        <a href="https://kneres.github.io/companyMarketing-landing-page/" target="_blank">Testar</a>
+                        <a href="https://github.com/KNereS/companyMarketing-landing-page/" target="_blanks">Código fonte no GitHub</a>
                     </div>
                 </div>
             </div>
@@ -255,7 +377,7 @@
                 <div class="footer__links__item">
                     <a href="https://wa.me/qr/XKEHZNS6IIEDC1" target="_blank">
                         <div>
-                            <i class="fa-solid fa-square-phone"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
                         </div>
                         <p>WhatsApp</p>
                     </a>
@@ -271,5 +393,8 @@
             <button type="submit">Enviar!</button>
         </form>
     </footer>
+
+    <script src="./assets/js/main.js"></script>
+
 </body>
 </html>

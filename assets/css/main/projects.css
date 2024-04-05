@@ -42,7 +42,7 @@
 .main__projects__boxes__item__image {
     width: 50%;
     height: 100%;
-    background: url(../../img/main/projects0.png);
+    background: url(../../img/main/projects4.png);
     background-position: center;
     background-size: cover;
 }
@@ -50,7 +50,7 @@
 .main__projects__boxes__item + .main__projects__boxes__item .main__projects__boxes__item__image {
     width: 50%;
     height: 100%;
-    background: url(../../img/main/projects1.png);
+    background: url(../../img/main/projects5.png);
     background-position: center;
     background-size: cover;
 }
@@ -58,12 +58,28 @@
 .main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item .main__projects__boxes__item__image {
     width: 50%;
     height: 100%;
-    background: url(../../img/main/projects2.png);
+    background: url(../../img/main/projects0.png);
     background-position: center;
     background-size: cover;
 }
 
 .main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item .main__projects__boxes__item__image {
+    width: 50%;
+    height: 100%;
+    background: url(../../img/main/projects1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item .main__projects__boxes__item__image {
+    width: 50%;
+    height: 100%;
+    background: url(../../img/main/projects2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item + .main__projects__boxes__item .main__projects__boxes__item__image {
     width: 50%;
     height: 100%;
     background: url(../../img/main/projects3.png);
@@ -112,7 +128,7 @@
 }
 
 .main__projects__mobile__item {
-    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects0.png);
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects4.png);
     background-size: cover;
     padding: 2rem;
     width: 400px;
@@ -156,16 +172,26 @@
 }
 
 .main__projects__mobile__item + .main__projects__mobile__item {
-    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects1.png);
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects5.png);
     background-size: cover;
 }
 
 .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item {
-    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects2.png);
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects0.png);
     background-size: cover;
 }
 
 .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item{
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects1.png);
+    background-size: cover;
+}
+
+.main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item{
+    background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects2.png);
+    background-size: cover;
+}
+
+.main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item + .main__projects__mobile__item{
     background: linear-gradient(90deg, rgba(10, 24, 46, 100%), rgba(10, 24, 46, 75%)), url(../../img/main/projects3.png);
     background-size: cover;
 }

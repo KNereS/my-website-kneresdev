@@ -3,6 +3,7 @@
 
 /* Header */
 @import url(header.css);
+@import url(menu.css);
 
 /* Main */
 @import url(main/presentation.css);
@@ -36,4 +37,5 @@ html {
 body {
     background-color: var(--background-navy);
     max-width: 100vw;
+    position: relative;
 }

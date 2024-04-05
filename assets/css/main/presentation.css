@@ -118,12 +118,12 @@
     }
 
     .main__presentation h1 span {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
 }
 
-@media (max-width: 530px) {
+@media (max-width: 570px) {
 
     .main__presentation h2 {
         font-size: 1rem;
@@ -135,7 +135,7 @@
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
 
     .main__presentation h1 {
         font-size: 3rem;
